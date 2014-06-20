@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head lang="en">
         <meta charset="UTF-8">
         <title>Personal Page</title>
@@ -9,134 +10,135 @@
 
     <body>
 
-        <div id="header" class="main">
-            <p id="welcome">Welcome to Colin Firth!</p>
+        <header>
+            <h1>Welcome to Colin Firth!</h1>
             <nav>
                 <a href="">Home</a> |
                 <a href="">My biography</a> |
                 <a href="">My Photo</a> |
                 <a href="">Contact Me</a> |
             </nav>
-        </div><!-- end header -->
-
-        <div id="my-photo">
-            <img src="images/Colin-Firth.jpg" alt="Colin Firth" id="colin">
-        </div><!-- end my-photo -->
+        </header><!-- end header -->
 
         <div id="container">
 
-            <div id="main-content">
+            <section id="photo">
+                <img src="images/Colin-Firth.jpg" alt="Colin Firth" id="colin">
+            </section><!-- end photo -->
 
-                <div id="articles">
+            <section id="main-content">
 
-                    <article id="story">
+                <article id="story">
+
+                    <header>
+                        <h2>I'm very glad to see you here! Let's meet!</h2>
+                    </header>
+
+                    <section>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
+                        vel faucibus lacus porttitor. Vestibulum scelerisque dolor scelerisque nisi convallis lobortis.
+                        Integer ut dignissim erat, vel lobortis odio. Phasellus in elementum elit. Donec eleifend arcu sit
+                        amet orci interdum, at rutrum ipsum malesuada. Nunc laoreet velit purus, eu faucibus ligula rutrum
+                        sit amet. In nec justo quam. Donec consequat nibh nulla, ac commodo leo tincidunt quis. Aenean vitae
+                        libero tortor.
+                        </p>
+                    </section>
+
+                    <section class="news">
                         <header>
-                            <h1>I'm very glad to see you here! Let's meet!</h1>
+                            <h3>Latest movie</h3>
                         </header>
-
-                        <section>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
-                            vel faucibus lacus porttitor. Vestibulum scelerisque dolor scelerisque nisi convallis lobortis.
-                            Integer ut dignissim erat, vel lobortis odio. Phasellus in elementum elit. Donec eleifend arcu sit
-                            amet orci interdum, at rutrum ipsum malesuada. Nunc laoreet velit purus, eu faucibus ligula rutrum
-                            sit amet. In nec justo quam. Donec consequat nibh nulla, ac commodo leo tincidunt quis. Aenean vitae
-                            libero tortor.
-                            </p>
-                        </section>
-                    </article>
-
-                    <article class="news">
-                        <header>
-                            <h2>Latest movie</h2>
-                        </header>
-                        <section>
+                        <article>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
                                 vel faucibus lacus porttitor.
                             </p>
-                        </section>
+                        </article>
                         <footer><a href="">Read more &rarr;</a></footer>
-                    </article>
+                    </section>
 
-                    <article class="news">
+                    <section class="news">
                         <header>
-                            <h2>Latest interview</h2>
+                            <h3>Latest interview</h3>
                         </header>
-                        <section>
+                        <article>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
                                 vel faucibus lacus porttitor.
                             </p>
-                        </section>
+                        </article>
                         <footer><a href="">Read more &rarr;</a></footer>
-                    </article>
+                    </section>
 
-                    <article class="news">
+                    <section class="news">
                         <header>
-                            <h2>Upcoming movie</h2>
+                            <h3>Upcoming movie</h3>
                         </header>
-                        <section>
+                        <article>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
                                 vel faucibus lacus porttitor.
                             </p>
-                        </section>
+                        </article>
                         <footer><a href="">Read more &rarr;</a></footer>
-                    </article>
+                    </section>
 
-                    <article class="news">
+                    <section class="news">
                         <header>
-                            <h2>Upcoming events</h2>
+                            <h3>Upcoming events</h3>
                         </header>
-                        <section>
+                        <article>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
                                 vel faucibus lacus porttitor.
                             </p>
-                        </section>
+                        </article>
                         <footer><a href="">Read more &rarr;</a></footer>
-                    </article>
+                    </section>
 
-                    <div id="sidebar">
-                        <aside>
-                            <h3>Fan's Website</h3>
+                </article><!-- end story -->
+
+                <aside id="sidebar">
+
+                    <section id="fan">
+                        <h4>Fan's Website</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
+                            vel faucibus lacus porttitor.
+                        </p>
+                    </section><!-- end fan -->
+
+                    <section id="update">
+                        <h4>Latest news updates</h4>
+                        <article>
+                            <h5>June 2014</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
                                 vel faucibus lacus porttitor.
                             </p>
-                        </aside>
+                        </article>
 
-                        <aside>
-                            <h3>Latest news updates</h3>
-                            <section>
-                                <h4>June 2014</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
-                                    vel faucibus lacus porttitor.
-                                </p>
-                            </section>
+                        <article>
+                            <h5>May 2014</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
+                                vel faucibus lacus porttitor.
+                            </p>
+                        </article>
+                    </section><!-- end update -->
 
-                            <section>
-                                <h4>May 2014</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
-                                    vel faucibus lacus porttitor.
-                                </p>
-                            </section>
-                        </aside>
-                    </div><!-- end sidebar -->
+                </aside><!-- end sidebar -->
 
-                </div><!-- end articles -->
-
-            </div><!-- end main-content -->
+            </section><!-- end main-content -->
 
         </div><!-- container -->
 
         <footer class="main">
-            <div id="uncopyright">
+            <section id="uncopyright">
                 <p>Uncopyright &copy;2014 <strong>Victoria Kudenko</strong></p>
-            </div><!-- end uncopyright -->
+            </section><!-- end uncopyright -->
 
-            <div id="credits">
+            <section id="credits">
                 <p>
                     Sustainably coded with love by
                     <a href="https://www.facebook.com/viktoriya.andreychikova" target="_blank">Victoria</a>
                 </p>
-            </div><!-- end credits -->
+            </section><!-- end credits -->
         </footer>
 
     </body>
+
 </html>
