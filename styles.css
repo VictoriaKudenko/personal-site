@@ -28,11 +28,20 @@ body {
 
 /* Typography */
 
+h2, h3, h4, h5 {
+    color: #fe1d0b;
+}
+
 /* Header */
 
 #lead {
     background: #000;
     color: #fff;
+}
+
+#title {
+    width: 1097px;
+    margin: 0 auto;
 }
 
 nav a {
@@ -56,6 +65,21 @@ nav a:hover, nav a:active {
 
 a#home {
     color: #fe1d0b;
+}
+
+h1, nav {
+    display: inline-block;
+}
+
+h1 {
+    padding: 10px 60px 10px 30px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
 }
 
 /* Photo */
