@@ -13,38 +13,63 @@
     padding: 0;
 }
 
+article, section, aside, nav, header, footer, figure, figcaption {
+    display: block;
+}
+
 body {
-    background: #ede0d4 url("images/bg-tile.gif") top left repeat;
-    color: #0094a9;
+    background: #fff;
+    color: #000;
     font-size: 14px;
     font-family: Papyrus, fantasy, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
 }
 
-.main {
-    width: 800px;
-    margin: 0 auto;
-}
-
-
-
 /* Typography */
 
 /* Header */
 
-/* My Photo */
+#lead {
+    background: #000;
+    color: #fff;
+}
 
-#my-photo {
-    background: #619ed6;
-    margin: 0 auto;
+nav a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:link {
+    color: #ffffff;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+nav a:hover, nav a:active {
+    color: #fe1d0b;
+}
+
+a#home {
+    color: #fe1d0b;
+}
+
+/* Photo */
+
+#photo {
+    background: linear-gradient(#a31d1d, #e66665);
 }
 
 #colin {
     display: block;
-    width: 400px;
-    height: 533px;
+    width: 500px;
+    height: 375px;
     margin: 0 auto;
+    padding: 20px 0;
 }
 
 /* Main Content */
