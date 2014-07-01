@@ -98,4 +98,22 @@ li {
 
 /* Main Content */
 
+#introduction, #news {
+    width: 700px;
+    margin: 10px auto;
+    padding: 0 10px;
+}
+
+.info {
+    display: inline-block;
+    width: 300px;
+    margin: 5px 20px 10px 20px;
+}
+
+#sidebar {
+    width: 250px;
+    margin: 0 20px;
+}
+
+
 /* Footer */
