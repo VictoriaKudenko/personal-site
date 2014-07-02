@@ -112,6 +112,7 @@ li {
 
 #sidebar {
     width: 200px;
+    padding: 20px 0 0;
 }
 
 #story, #sidebar {
@@ -120,11 +121,26 @@ li {
 
 #main-content {
     width: 1000px;
-    height: 415px;
+    height: 430px;
     margin: 0 auto;
 }
 
-
-
-
 /* Footer */
+
+#myinfo {
+    width: 1000px;
+    height: 82px;
+    margin: 0 auto;
+}
+
+#uncopyright, #credits {
+    width: 300px;
+    float: left;
+    margin-top: 50px;
+    padding: 10px 20px 50px;
+    display:inline-block;
+}
+
+#credits {
+    float: right;
+}
