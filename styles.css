@@ -111,9 +111,20 @@ li {
 }
 
 #sidebar {
-    width: 250px;
-    margin: 0 20px;
+    width: 200px;
 }
+
+#story, #sidebar {
+    display: inline-block;
+}
+
+#main-content {
+    width: 1000px;
+    height: 415px;
+    margin: 0 auto;
+}
+
+
 
 
 /* Footer */
