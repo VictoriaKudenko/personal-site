@@ -8,6 +8,8 @@
 
 /* General */
 
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -51,11 +53,7 @@ nav a {
     padding: 0 10px;
 }
 
-nav a:link {
-    color: #ffffff;
-}
-
-nav a:visited {
+nav a:link, a:visited {
     color: #ffffff;
 }
 
@@ -142,6 +140,7 @@ footer.red-button a, a:link, a:visited, a:hover, nav a:active {
 
 footer.red-button a:hover, nav a:active {
     text-decoration: none;
+    background: radial-gradient(#fff6f9, #c61d1d);
 }
 
 /* Footer */
@@ -162,4 +161,8 @@ footer.red-button a:hover, nav a:active {
 
 #credits {
     float: right;
+}
+
+#credits a {
+    color: #c61d1d;
 }
