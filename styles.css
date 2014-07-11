@@ -108,14 +108,26 @@ li {
     margin: 5px 20px 10px 20px;
 }
 
-#story, #sidebar {
-    display: inline-block;
-}
-
 #main-content {
+    position: relative;
     width: 1000px;
     height: 460px;
     margin: 0 auto;
+}
+
+#story, #sidebar {
+    display: inline-block;
+    position: absolute;
+}
+
+#story {
+    top: 10px;
+    left: 10px;
+}
+
+#sidebar {
+    top: 0;
+    right: 10px;
 }
 
 .newsbtn {
@@ -135,7 +147,7 @@ footer.newsbtn a, footer.newsbtn a:link, footer.newsbtn a:visited, footer.newsbt
 
 footer.newsbtn a:hover, footer.newsbtn a:active {
     text-decoration: none;
-    background: radial-gradient(#fff6f9, #c61d1d);
+    background: radial-gradient(#ffc1c1, #c61d1d);
 }
 
 /* Sidebar */
