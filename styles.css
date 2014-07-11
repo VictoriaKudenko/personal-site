@@ -185,3 +185,18 @@ footer.newsbtn a:hover, footer.newsbtn a:active {
 #credits a {
     color: #c61d1d;
 }
+
+/* Contact us page */
+
+#custinfo {
+    margin: 0 0 0 10px;
+}
+
+#name, #email, #msg {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+input:focus {
+    background-color: #fffbce;
+}
