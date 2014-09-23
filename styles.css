@@ -198,8 +198,14 @@ footer.newsbtn a:hover, footer.newsbtn a:active {
     background: #121212;
 }
 
-#fmenu, #fcontacts, #fsocial {
+#fmenu, #fsocial {
     width: 200px;
+    float: left;
+    display:inline-block;
+}
+
+#fcontacts {
+    width: 400px;
     float: left;
     display:inline-block;
 }
@@ -220,20 +226,24 @@ footer.newsbtn a:hover, footer.newsbtn a:active {
     color: #c61d1d;
 }
 
-#fmenu nav a {
+#fmenu nav a, #fsocial a {
     font-size: 12px;
-    font-weight: bold;
     text-decoration: none;
     padding: 0 10px;
 }
 
-#fmenu nav a:link, #fmenu a:visited {
-    color: #fe1d0b;
+#fmenu nav a:link, #fmenu a:visited,
+#fsocial a:link, #fsocial a:visited,
+address a:link, address a:visited {
+    color: #f5f5f5;
+    text-decoration: none;
 }
 
-#fmenu nav a:hover, #fmenu a:active {
-    color: #f5f5f5;
-    text-decoration: underline;
+#fmenu nav a:hover, #fmenu a:active,
+#fsocial a:hover, #fsocial a:active,
+address a:hover, address a:active {
+    color: #fe1d0b;
+    text-decoration: none;
 }
 
 #fmenu li, #fsocial li {
@@ -244,6 +254,26 @@ img.social {
     width: 24px;
     height: 24px;
 }
+
+h6.tdecor, #fcontacts p {
+    color: #f5f5f5;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+h6.tdecor {
+    text-decoration: underline;
+}
+
+address a {
+    font: 12px;
+    font-style: normal;
+}
+
+#fmenu nav a {
+    font-weight: normal;
+}
+
 
 
 /* Contact us page */
