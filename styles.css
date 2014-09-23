@@ -193,9 +193,9 @@ footer.newsbtn a:hover, footer.newsbtn a:active {
 
 #footerinfo {
     width: 1000px;
-    height: 100px;
+    height: 200px;
     margin: 0 auto;
-    background: rgba(22, 22, 22, 0.97);
+    background: #121212;
 }
 
 #fmenu, #fcontacts, #fsocial {
@@ -236,8 +236,13 @@ footer.newsbtn a:hover, footer.newsbtn a:active {
     text-decoration: underline;
 }
 
-#fmenu li {
+#fmenu li, #fsocial li {
     display: block;
+}
+
+img.social {
+    width: 24px;
+    height: 24px;
 }
 
 
