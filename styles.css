@@ -193,21 +193,32 @@ footer.newsbtn a:hover, footer.newsbtn a:active {
 
 #footerinfo {
     width: 1000px;
-    height: 200px;
+    height: 160px;
     margin: 0 auto;
     background: #121212;
 }
 
 #fmenu, #fsocial {
     width: 200px;
+    height: 140px;
     float: left;
     display:inline-block;
 }
 
+#fmenu {
+    margin: 10px 25px 10px 50px;
+}
+
+#fsocial {
+    margin: 10px 50px 10px 25px;
+}
+
 #fcontacts {
     width: 400px;
+    height: 140px;
     float: left;
     display:inline-block;
+    margin: 10px 25px 10px 25px;
 }
 
 #uncopyright, #credits {
@@ -235,7 +246,7 @@ footer.newsbtn a:hover, footer.newsbtn a:active {
 #fmenu nav a:link, #fmenu a:visited,
 #fsocial a:link, #fsocial a:visited,
 address a:link, address a:visited {
-    color: #f5f5f5;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -256,7 +267,7 @@ img.social {
 }
 
 h6.tdecor, #fcontacts p {
-    color: #f5f5f5;
+    color: #ffffff;
     font-weight: normal;
     font-size: 12px;
 }
@@ -273,7 +284,6 @@ address a {
 #fmenu nav a {
     font-weight: normal;
 }
-
 
 
 /* Contact us page */
