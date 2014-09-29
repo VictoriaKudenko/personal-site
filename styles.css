@@ -259,6 +259,7 @@ address a:hover, address a:active {
 
 #fmenu li, #fsocial li {
     display: block;
+    position: relative;
 }
 
 img.social {
@@ -299,6 +300,12 @@ address a {
 
 .fcsec {
     margin: 3px 0;
+}
+
+#fsocial li span {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
 }
 
 
