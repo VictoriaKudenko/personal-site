@@ -264,6 +264,7 @@ address a:hover, address a:active {
 img.social {
     width: 24px;
     height: 24px;
+    vertical-align: bottom;
 }
 
 h6.tdecor, #fcontacts p {
@@ -283,7 +284,24 @@ address a {
 
 #fmenu nav a {
     font-weight: normal;
+    padding: 0;
 }
+
+#fsocial ul a {
+    padding: 0;
+}
+
+.fa-envelope {
+    color: #ffffff;
+    width: 21px;
+    padding: 0 0 0 3px;
+}
+
+.fcsec {
+    margin: 3px 0;
+}
+
+
 
 
 /* Contact us page */
