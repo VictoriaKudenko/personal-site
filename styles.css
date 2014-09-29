@@ -70,9 +70,6 @@ nav a:hover, a:active {
     color: #fe1d0b;
 }
 
-a#home {
-    color: #fe1d0b;
-}
 
 h1, nav {
     display: inline-block;
@@ -316,11 +313,35 @@ address a {
     margin: 0 0 0 10px;
 }
 
-#name, #email, #msg {
+.sec {
     display: block;
+    position: relative;
+}
+
+#name, #email, #msg {
+    display: inline-block;
     margin: 0 0 10px 0;
 }
 
 input:focus {
     background-color: #fffbce;
+}
+
+label {
+    display: inline-block;
+    height: 21px;
+    width: 70px;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+    font-style: italic;
+    vertical-align: top;
+}
+
+button {
+    margin: 15px 0 0 0;
+    padding: 4px;
+    font-size: 15px;
+    border: 2px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 2px #888888;
 }
