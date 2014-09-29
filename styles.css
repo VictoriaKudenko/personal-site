@@ -323,7 +323,7 @@ address a {
     margin: 0 0 10px 0;
 }
 
-input:focus, textarea:focus {
+input#name:focus, input#email:focus, input#msg:focus, textarea:focus {
     background-color: #fffbce;
 }
 
