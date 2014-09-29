@@ -46,12 +46,12 @@ h6 {
 /* Header */
 
 #lead {
+    width: 1262px;
     background: #000;
     color: #fff;
 }
 
 #title {
-    width: 1097px;
     margin: 0 auto;
 }
 
@@ -323,7 +323,7 @@ address a {
     margin: 0 0 10px 0;
 }
 
-input:focus {
+input:focus, textarea:focus {
     background-color: #fffbce;
 }
 
@@ -337,9 +337,9 @@ label {
     vertical-align: top;
 }
 
-button {
+input[type=submit] {
     margin: 15px 0 0 0;
-    padding: 4px;
+    padding: 3px 10px;
     font-size: 15px;
     border: 2px;
     border-radius: 25px;
