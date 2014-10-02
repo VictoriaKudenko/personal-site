@@ -85,8 +85,9 @@ li {
     list-style-type: none;
     display: inline;
 }
-
-
+li.current a {
+    color: #FE1D0B;
+}
 
 
 /* Photo */
