@@ -178,6 +178,15 @@ footer.newsbtn a:hover, footer.newsbtn a:active {
     padding-bottom: 10px;
 }
 
+a.sidelink:link, a.sidelink:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+a.sidelink:hover, a.sidelink:active {
+    color: #fe1d0b;
+    text-shadow: 1px 1px #000;
+}
 
 
 
