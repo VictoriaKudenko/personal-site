@@ -49,6 +49,8 @@ h6 {
     width: 1262px;
     background: #000;
     color: #fff;
+    position: fixed;
+    z-index: 1;
 }
 
 #title {
@@ -68,6 +70,7 @@ nav a:link, a:visited {
 
 nav a:hover, a:active {
     color: #fe1d0b;
+    text-shadow: 1px 1px #a4a4a4;
 }
 
 
