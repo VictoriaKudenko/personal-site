@@ -1,246 +1,255 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 
     <head lang="en">
-        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
         <title>Personal Page</title>
         <link href="styles.css" rel="stylesheet">
     </head>
 
     <body>
 
-        <header id="lead">
-            <div id="title">
-                <h1>Welcome to Colin Firth!!!</h1>
-                <nav>
-                    <ul>
-                        <li class="current"><a href="index.html" id="home"><i class="fa fa-home"></i>   Home</a> |</li>
-                        <li><a href="biography.html"><i class="fa fa-child"></i>   My biography</a> |</li>
-                        <li><a href="photo.html"><i class="fa fa-camera-retro"></i>   My Photo</a> |</li>
-                        <li><a href="contact.html"><i class="fa fa-envelope-o"></i>   Contact Me</a> |</li>
-                    </ul>
-                </nav>
-            </div><!-- end title -->
-        </header><!-- end header -->
+        <div class="container-fluid">
 
-        <div id="container">
+            <header id="lead">
+                <div class="page-header">
+                    <h1>Welcome to Colin Firth!!!</h1>
+                    <nav class="navbar navbar-inverse" role="navigation">
+                        <div class="container">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="active"><a href="index.html" id="home" role="tab" data-toggle="tab"><i class="fa fa-home"></i>   Home</a></li>
+                            <li><a href="biography.html"><i class="fa fa-child" role="tab" data-toggle="tab"></i>   My biography</a></li>
+                            <li><a href="photo.html"><i class="fa fa-camera-retro" role="tab" data-toggle="tab"></i>   My Photo</a></li>
+                            <li><a href="contact.html"><i class="fa fa-envelope-o" role="tab" data-toggle="tab"></i>   Contact Me</a></li>
+                        </ul>
+                        </div>
+                    </nav>
+                </div><!-- end title -->
+            </header><!-- end header -->
 
-            <section id="photo">
-                <img src="images/Colin-Firth.jpg" alt="Colin Firth" id="colin">
-            </section><!-- end photo -->
+            <div id="container">
 
-            <section id="main-content">
+                <section id="photo">
+                    <img src="images/Colin-Firth.jpg" alt="Colin Firth" id="colin">
+                </section><!-- end photo -->
 
-                <article id="story">
+                <section id="main-content">
 
-                    <div id="introduction">
+                    <article id="story">
 
-                        <header>
-                            <h2>I'm very glad to see you here! Let's meet!</h2>
-                        </header>
+                        <div id="introduction">
 
-                        <section>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
-                                vel faucibus lacus porttitor. Vestibulum scelerisque dolor scelerisque nisi convallis lobortis.
-                                Integer ut dignissim erat, vel lobortis odio. Phasellus in elementum elit. Donec eleifend arcu sit
-                                amet orci interdum, at rutrum ipsum malesuada. Nunc laoreet velit purus, eu faucibus ligula rutrum
-                                sit amet. In nec justo quam. Donec consequat nibh nulla, ac commodo leo tincidunt quis. Aenean vitae
-                                libero tortor.
-                            </p>
-                        </section>
-
-                    </div> <!-- end introduction -->
-
-                    <div id="news">
-
-                        <section class="info">
                             <header>
-                                <h3>Latest movie</h3>
+                                <h2>I'm very glad to see you here! Let's meet!</h2>
                             </header>
-                            <article>
+
+                            <section>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
-                                    vel faucibus lacus porttitor.
+                                    vel faucibus lacus porttitor. Vestibulum scelerisque dolor scelerisque nisi convallis lobortis.
+                                    Integer ut dignissim erat, vel lobortis odio. Phasellus in elementum elit. Donec eleifend arcu sit
+                                    amet orci interdum, at rutrum ipsum malesuada. Nunc laoreet velit purus, eu faucibus ligula rutrum
+                                    sit amet. In nec justo quam. Donec consequat nibh nulla, ac commodo leo tincidunt quis. Aenean vitae
+                                    libero tortor.
                                 </p>
-                            </article>
-                            <footer class="newsbtn">
-                                <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth+latest+movies" target="_blank">
-                                Read more &rarr;</a>
-                            </footer>
-                        </section>
+                            </section>
 
-                        <section class="info">
-                            <header>
-                                <h3>Latest interview</h3>
-                            </header>
-                            <article>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
-                                    vel faucibus lacus porttitor.
-                                </p>
-                            </article>
-                            <footer class="newsbtn">
-                                <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth+Latest+interview&tbs=qdr:m" target="_blank">
-                                    Read more &rarr;
-                                </a>
-                            </footer>
-                        </section>
+                        </div> <!-- end introduction -->
 
-                        <section class="info">
-                            <header>
-                                <h3>Upcoming movie</h3>
-                            </header>
-                            <article>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
-                                    vel faucibus lacus porttitor.
-                                </p>
-                            </article>
-                            <footer class="newsbtn">
-                                <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth+Upcoming+movie&tbas=0&tbs=qdr:y" target="_blank">
-                                    Read more &rarr;
-                                </a>
-                            </footer>
-                        </section>
+                        <div id="news">
 
-                        <section class="info">
-                            <header>
-                                <h3>Upcoming events</h3>
-                            </header>
-                            <article>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
-                                    vel faucibus lacus porttitor.
-                                </p>
-                            </article>
-                            <footer class="newsbtn">
-                                <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth+Upcoming+events&tbs=qdr:m" target="_blank">
-                                    Read more &rarr;
-                                </a>
-                            </footer>
-                        </section>
+                            <section class="info">
+                                <header>
+                                    <h3>Latest movie</h3>
+                                </header>
+                                <article>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
+                                        vel faucibus lacus porttitor.
+                                    </p>
+                                </article>
+                                <footer class="newsbtn">
+                                    <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth+latest+movies" target="_blank">
+                                    Read more &rarr;</a>
+                                </footer>
+                            </section>
 
-                    </div><!-- end news -->
+                            <section class="info">
+                                <header>
+                                    <h3>Latest interview</h3>
+                                </header>
+                                <article>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
+                                        vel faucibus lacus porttitor.
+                                    </p>
+                                </article>
+                                <footer class="newsbtn">
+                                    <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth+Latest+interview&tbs=qdr:m" target="_blank">
+                                        Read more &rarr;
+                                    </a>
+                                </footer>
+                            </section>
 
-                </article><!-- end story -->
+                            <section class="info">
+                                <header>
+                                    <h3>Upcoming movie</h3>
+                                </header>
+                                <article>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
+                                        vel faucibus lacus porttitor.
+                                    </p>
+                                </article>
+                                <footer class="newsbtn">
+                                    <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth+Upcoming+movie&tbas=0&tbs=qdr:y" target="_blank">
+                                        Read more &rarr;
+                                    </a>
+                                </footer>
+                            </section>
 
-                <aside id="sidebar">
+                            <section class="info">
+                                <header>
+                                    <h3>Upcoming events</h3>
+                                </header>
+                                <article>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
+                                        vel faucibus lacus porttitor.
+                                    </p>
+                                </article>
+                                <footer class="newsbtn">
+                                    <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth+Upcoming+events&tbs=qdr:m" target="_blank">
+                                        Read more &rarr;
+                                    </a>
+                                </footer>
+                            </section>
 
-                    <section id="fan">
-                        <h4>Fan's Website</h4>
-                        <a href="http://firth.com/" target="_blank" class="sidelink">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
-                            vel faucibus lacus porttitor.<span>&rarr;</span>
-                        </a>
-                    </section><!-- end fan -->
+                        </div><!-- end news -->
 
-                    <section id="update">
-                        <h4>Latest news updates</h4>
-                        <article>
-                            <h5>June 2014</h5>
-                            <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth&tbm=nws" target="_blank" class="sidelink">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
-                                vel faucibus lacus porttitor. <span>&rarr;</span>
-                            </a>
-                        </article>
+                    </article><!-- end story -->
 
-                        <article>
-                            <h5>May 2014</h5>
-                            <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth&tbm=nws" target="_blank" class="sidelink">
+                    <aside id="sidebar">
+
+                        <section id="fan">
+                            <h4>Fan's Website</h4>
+                            <a href="http://firth.com/" target="_blank" class="sidelink">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
                                 vel faucibus lacus porttitor.<span>&rarr;</span>
                             </a>
-                        </article>
-                    </section><!-- end update -->
+                        </section><!-- end fan -->
 
-                </aside><!-- end sidebar -->
+                        <section id="update">
+                            <h4>Latest news updates</h4>
+                            <article>
+                                <h5>June 2014</h5>
+                                <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth&tbm=nws" target="_blank" class="sidelink">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
+                                    vel faucibus lacus porttitor. <span>&rarr;</span>
+                                </a>
+                            </article>
 
-            </section><!-- end main-content -->
+                            <article>
+                                <h5>May 2014</h5>
+                                <a href="https://www.google.co.nz/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=colin+firth&tbm=nws" target="_blank" class="sidelink">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra velit at felis facilisis,
+                                    vel faucibus lacus porttitor.<span>&rarr;</span>
+                                </a>
+                            </article>
+                        </section><!-- end update -->
 
-        </div><!-- container -->
+                    </aside><!-- end sidebar -->
 
-        <footer class="main">
+                </section><!-- end main-content -->
 
-            <div id="footerinfo">
+            </div><!-- container -->
 
-                <section id="fmenu">
-                        <h6>Site map</h6>
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="biography.html">My biography</a></li>
-                                <li><a href="photo.html">My Photo</a></li>
-                                <li><a href="contact.html"> Contact Me</a></li>
-                            </ul>
-                        </nav>
-                </section>
+            <footer class="main">
 
-                <section id="fsocial">
+                <div id="footerinfo">
 
-                    <h6>Stay connected</h6>
-                    <ul>
-                        <li><a href="https://www.youtube.com/results?search_query=Colin+Firth" target="_blank">
-                                <img src="images/youtube.png" alt="YouTube" class="social">
-                            <span>Watch me on YouTube</span>
-                            </a>
-                        </li>
-
-                        <li><a href="https://twitter.com/firthcom" target="_blank">
-                                <img src="images/twitter.png" alt="Twitter" class="social">
-                            <span>Follow me on Twitter</span>
-                            </a>
-                        </li>
-
-                        <li><a href="https://www.google.com/?gws_rd=ssl#q=colin+firth&tbm=nws" target="_blank">
-                                <img src="images/google.png" alt="Google" class="social">
-                            <span>Search for me on Google</span>
-                            </a>
-                        </li>
-
-                        <li><a href="mailto:colinfirth@mail.com?Subject=Hello,%20Colin!&Body=Hello!" target="_top">
-                                <i class="fa fa-envelope fa-lg"></i> Send Me an Email
-                            </a>
-                        </li>
-                    </ul>
-
-                </section><!-- end fsocial -->
-
-                <section id="fcontacts">
-
-                    <h6>Contact Information</h6>
-
-                    <section class="fcsec">
-                        <h6 class="tdecor">USA</h6>
-                        <p>444   ·  Rodeo Drive  ·  Beverly Hills  ·  Los Angeles  ·  USA  ·  90210</p>
+                    <section id="fmenu">
+                            <h6>Site map</h6>
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="biography.html">My biography</a></li>
+                                    <li><a href="photo.html">My Photo</a></li>
+                                    <li><a href="contact.html"> Contact Me</a></li>
+                                </ul>
+                            </nav>
                     </section>
 
-                    <section class="fcsec">
-                        <h6 class="tdecor">England</h6>
-                        <p>55   ·  Royal Huts Ave   ·  Grayshott   ·  Hampshire   ·  England   ·  GU26</p>
-                    </section>
+                    <section id="fsocial">
 
-                    <section class="fcsec">
-                        <h6 class="tdecor">Email</h6>
-                        <address><a href="mailto:colinfirth@mail.com?Subject=Hello,%20Colin!&Body=Hello!">colinfirth@mail.com</a></address>
-                    </section>
+                        <h6>Stay connected</h6>
+                        <ul>
+                            <li><a href="https://www.youtube.com/results?search_query=Colin+Firth" target="_blank">
+                                    <img src="images/youtube.png" alt="YouTube" class="social">
+                                <span>Watch me on YouTube</span>
+                                </a>
+                            </li>
 
-                </section><!-- end fcontacts -->
+                            <li><a href="https://twitter.com/firthcom" target="_blank">
+                                    <img src="images/twitter.png" alt="Twitter" class="social">
+                                <span>Follow me on Twitter</span>
+                                </a>
+                            </li>
 
-            </div><!-- end footerinfo -->
+                            <li><a href="https://www.google.com/?gws_rd=ssl#q=colin+firth&tbm=nws" target="_blank">
+                                    <img src="images/google.png" alt="Google" class="social">
+                                <span>Search for me on Google</span>
+                                </a>
+                            </li>
 
-            <div id="myinfo">
+                            <li><a href="mailto:colinfirth@mail.com?Subject=Hello,%20Colin!&Body=Hello!" target="_top">
+                                    <i class="fa fa-envelope fa-lg"></i> Send Me an Email
+                                </a>
+                            </li>
+                        </ul>
 
-                <section id="uncopyright">
-                    <p>Uncopyright &copy; 2014 <strong>Victoria Kudenko</strong></p>
-                </section><!-- end uncopyright -->
+                    </section><!-- end fsocial -->
 
-                <section id="credits">
-                    <p>
-                        Sustainably coded by
-                        <a href="https://www.facebook.com/viktoriya.andreychikova" target="_blank">Victoria</a>
-                    </p>
-                </section><!-- end credits -->
+                    <section id="fcontacts">
 
-            </div><!-- end myinfo -->
+                        <h6>Contact Information</h6>
 
-        </footer>
+                        <section class="fcsec">
+                            <h6 class="tdecor">USA</h6>
+                            <p>444   ·  Rodeo Drive  ·  Beverly Hills  ·  Los Angeles  ·  USA  ·  90210</p>
+                        </section>
+
+                        <section class="fcsec">
+                            <h6 class="tdecor">England</h6>
+                            <p>55   ·  Royal Huts Ave   ·  Grayshott   ·  Hampshire   ·  England   ·  GU26</p>
+                        </section>
+
+                        <section class="fcsec">
+                            <h6 class="tdecor">Email</h6>
+                            <address><a href="mailto:colinfirth@mail.com?Subject=Hello,%20Colin!&Body=Hello!">colinfirth@mail.com</a></address>
+                        </section>
+
+                    </section><!-- end fcontacts -->
+
+                </div><!-- end footerinfo -->
+
+                <div id="myinfo">
+
+                    <section id="uncopyright">
+                        <p>Uncopyright &copy; 2014 <strong>Victoria Kudenko</strong></p>
+                    </section><!-- end uncopyright -->
+
+                    <section id="credits">
+                        <p>
+                            Sustainably coded by
+                            <a href="https://www.facebook.com/viktoriya.andreychikova" target="_blank">Victoria</a>
+                        </p>
+                    </section><!-- end credits -->
+
+                </div><!-- end myinfo -->
+
+            </footer>
+
+        </div><!-- end container-fluid -->
 
     </body>
+
+
 
 </html>
